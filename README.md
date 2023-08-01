@@ -1,4 +1,4 @@
-# FileMaker-LetsEncrypt-Linux, the setup I relate to is described here https://gist.github.com/TyrfingMjolnir/234402499468db36b21f1bf36116a01e
+# FileMaker-LetsEncrypt-Linux, the setup I relate to is described here: [BHYVE Joyent SmartOS w/FileMaker 2023 Server under Ubuntu]([/guides/content/editing-an-existing-page](https://gist.github.com/TyrfingMjolnir/234402499468db36b21f1bf36116a01e))
 A bash script for fetching and renewing Let's Encrypt SSL certificates for FileMaker Server running on Linux using certbot.
 
 Setup instructions and an example video can be found at https://bluefeathergroup.com/blog/lets-encrypt-ssl-certificates-for-filemaker-server-for-mac/ the linux alternative will differ.
