@@ -19,3 +19,15 @@ For help on options, run:
 ```
 ./GetSSL.sh --help
 ```
+
+NginX
+```
+service nginx status
+```
+
+FileMaker 2023 Server
+```
+service fmshelper status
+service fmshelper stop
+service fmshelper start
+```
