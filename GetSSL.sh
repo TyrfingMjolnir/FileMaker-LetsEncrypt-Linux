@@ -183,13 +183,13 @@ fmsadmin certificate delete
 fmsadmin certificate import "${SERVER_PATH}CStore/fullchain.pem" --keyfile "${SERVER_PATH}CStore/privkey.pem" -y
 
 # Stop FileMaker Server
-launchctl stop com.filemaker.fms
+service fmshelper stop
 
 # Wait 15 seconds for it to stop
 sleep 15s
 
 # Start FileMaker Server again
-launchctl start com.filemaker.fms
+service fmshelper start
 
 echo
 echo "FileMaker Server should now be set to use TLS/SSL"
