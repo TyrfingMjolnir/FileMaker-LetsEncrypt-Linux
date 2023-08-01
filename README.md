@@ -22,22 +22,56 @@ For help on options, run:
 
 NginX
 ```
-service nginx status
+$ service nginx status
 ```
 
 FileMaker 2023 Server
 ```
-service fmshelper status
-service fmshelper stop
-service fmshelper start
+$ service fmshelper status
+$ service fmshelper stop
+$ service fmshelper start
 ```
 
 More FileMaker 2023 Server
 ```
-fmsadmin list files
+$ fmsadmin list files
 username (admin):admin
 password:
 filelinux:/opt/FileMaker/FileMaker Server/Data/Databases/Sample/FMServer_Sample.fmp12
 filelinux:/opt/FileMaker/FileMaker Server/Data/Databases/Agenda.fmp12
 filelinux:/opt/FileMaker/FileMaker Server/Data/Databases/Stellar Winds.fmp12
+```
+
+```
+$ fmsadmin help commands
+fmsadmin commands are:
+
+    AUTORESTART     Get or set auto-restart for the Admin Server or FMSE
+    BACKUP          Back up databases
+    CANCEL          Cancel the currently running operation
+    CERTIFICATE     Manage SSL certificates
+    CLEARKEY        Removes saved database encryption passwords
+    CLOSE           Close databases
+    DISABLE         Disable schedules or detailed statistics logging
+    DISCONNECT      Disconnect a client
+    ENABLE          Enable schedules or detailed statistics logging
+    GET             Retrieve server or CWP configuration settings, or retrieve
+                    the start time of a backup schedule or schedules
+    HELP            Get help pages
+    LIST            List clients, databases, plug-ins, or schedules
+    OPEN            Open databases
+    PAUSE           Temporarily stop database access
+    REMOVE          Move databases out of hosted folder or remove empty folder
+    RESETPW         Reset admin user password
+    RESTART         Restart a server process
+    RESUME          Make paused databases available
+    RUN             Run a schedule
+    SEND            Send a message
+    SET             Change server or CWP configuration settings, or change the
+                    start time of a backup schedule
+    START           Start a server process
+    STATUS          Get status of clients or databases
+    STOP            Stop a server process
+    VERIFY          Check the consistency of databases
+    WPE             Add, remove, and list secondary FileMaker WebDirect machines
 ```
