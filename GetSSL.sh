@@ -41,7 +41,7 @@ function usage() {
     Server Path:
     --server-path
         Enter the path to your FileMaker Server directory, ending in a slash 
-        "/Library/FileMaker Server/" 
+        "/opt/FileMaker/FileMaker\ Server/" 
 
 
 USAGE
@@ -120,8 +120,8 @@ if [ "$EMAIL" = "" ]; then
 fi
 
 if [ "$SERVER_PATH" = "" ]; then
-	read -p "Set your Server Path. Press 'enter' for default. ('/Library/FileMaker Server/'): " SERVER_PATH
-    SERVER_PATH=${SERVER_PATH:-"/Library/FileMaker Server/"}
+	read -p "Set your Server Path. Press 'enter' for default. ('/opt/FileMaker/FileMaker\ Server/'): " SERVER_PATH
+    SERVER_PATH=${SERVER_PATH:-"/opt/FileMaker/FileMaker\ Server/"}
         if [[ $SERVER_PATH == "" ]];
             then printf "\033[1;31mError: Server Path not specified. Must enter Server Path.\033[0m\n" && exit 1
         fi
