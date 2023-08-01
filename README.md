@@ -31,3 +31,13 @@ service fmshelper status
 service fmshelper stop
 service fmshelper start
 ```
+
+More FileMaker 2023 Server
+```
+fmsadmin list files
+username (admin):admin
+password:
+filelinux:/opt/FileMaker/FileMaker Server/Data/Databases/Sample/FMServer_Sample.fmp12
+filelinux:/opt/FileMaker/FileMaker Server/Data/Databases/Agenda.fmp12
+filelinux:/opt/FileMaker/FileMaker Server/Data/Databases/Stellar Winds.fmp12
+```
