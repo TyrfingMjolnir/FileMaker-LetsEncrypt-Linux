@@ -6,7 +6,7 @@ Setup instructions and an example video can be found at https://bluefeathergroup
 ## How to use:
 The script utilizes certbot to get SSL certificates from Let's Encrypt. Install certbot via homebrew:
 ```
-brew install certbot
+apt-get install certbot
 ```
 
 Change directory into the cloned repository and run:
