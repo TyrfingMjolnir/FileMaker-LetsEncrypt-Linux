@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Created by: David Nahodyl, Blue Feather
 # Contact: contact@bluefeathergroup.com
