@@ -157,8 +157,7 @@ fi
 # testing e-brake
 # exit
 
-WEB_ROOT="${SERVER_PATH}HTTPServer/htdocs"
-
+WEB_ROOT="${SERVER_PATH}htdocs/httpsRoot"
 
 # Get the certificate
 certbot certonly --webroot -w "$WEB_ROOT" -d $DOMAIN --agree-tos -m "$EMAIL" --preferred-challenges "http" -n
