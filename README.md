@@ -75,3 +75,7 @@ fmsadmin commands are:
     VERIFY          Check the consistency of databases
     WPE             Add, remove, and list secondary FileMaker WebDirect machines
 ```
+Ask for a new certificate for you node
+```
+bash /opt/local/bin/FileMaker-LetsEncrypt-Linux/GetSSL.sh -d "filemaker.domain.tld" -e "user@domain.tld" -s "/opt/FileMaker/FileMaker Server/NginxServer/" --no-confirm
+```
