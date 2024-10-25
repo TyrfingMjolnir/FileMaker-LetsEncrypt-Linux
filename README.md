@@ -79,3 +79,4 @@ Ask for a new certificate for your node
 ```
 bash /opt/local/bin/FileMaker-LetsEncrypt-Linux/GetSSL.sh -d "filemaker.domain.tld" -e "user@domain.tld" -s "/opt/FileMaker/FileMaker Server/NginxServer/" --no-confirm
 ```
+Tested working with: FileMaker Server Version 20.1.2.207, some sort of hickup, I ended up importing the certs through HTML5 admin interface at port 16001, `fmsadmin certificate import` was unable to set the SSL cert.
